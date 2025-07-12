@@ -37,7 +37,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="icon" href="images/favicon.svg">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="js/fontawesome.all.min.js"></script>
@@ -73,8 +73,9 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">TESLA: Test-time Reference-free Through-plane Super-resolution for Multi-contrast Brain MRI</h1>
-          <div class="is-size-5 publication-authors">
+          <h1 class="title is-2 publication-title">TESLA: Test-time Reference-free Through-plane Super-resolution for Multi-contrast Brain MRI</h1>
+          <h4 class="title is-4 publication-title">MICCAI 2025</h4>
+          <div class="is-size-4 publication-authors">
             <span class="author-block">
               <a href="https://sites.google.com/view/yoonseok-choi/">Yoonseok Choi</a><sup>1</sup>,</span>
             <span class="author-block">
@@ -169,6 +170,17 @@
                  class="TESLA Framework"
                  alt="TESLA Framework."/>
           </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>Fig. 1.</b> Overview of the proposed network TESLA.
+            In the first stage, we progressively reconstruct LR Tar.
+            In the second stage, we leverage the high-quality content information
+            disentangled from HR Ref with the pre-trained ContentNet to enrich the structural
+            fine detail of Soft SR Tar with the patch-wise contrastive learning. HR Ref and ContentNet
+            are used only during training; inference requires only PR, the encoders (\(E_c\)
+            and \(E_s\)), and decoder (\(G\)) in SE.
+          </p>
         </div>
         <br/>
         <!--/ TESLA Framework. -->
